@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cont">
+        <div id="calc">
+        <input type="text" id="input" placeholder="0">
+        <button class="btn ac-btn" onclick="clearAll()">AC</button>
+        <button class="btn" onclick="del()">C</button>
+        <button class="btn" onclick="input('/')">÷</button>
+        <button class="btn" onclick="input('7')">7</button>
+        <button class="btn" onclick="input('8')">8</button>
+        <button class="btn" onclick="input('9')">9</button>
+        <button class="btn" onclick="input('*')">×</button>
+        <button class="btn" onclick="input('4')">4</button>
+        <button class="btn" onclick="input('5')">5</button>
+        <button class="btn" onclick="input('6')">6</button>
+        <button class="btn" onclick="input('-')">-</button>
+        <button class="btn" onclick="input('1')">1</button>
+        <button class="btn" onclick="input('2')">2</button>
+        <button class="btn" onclick="input('3')">3</button>
+        <button class="btn" onclick="input('+')">+</button>
+        <button class="btn" onclick="input('0')">0</button>
+        <button class="btn" onclick="input('00')">00</button>
+        <button class="btn equal-btn row-end-btn" onclick="calc()">=</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
